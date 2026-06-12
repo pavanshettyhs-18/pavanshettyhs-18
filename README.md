@@ -211,7 +211,7 @@ My hands-on experience spans **microcontroller programming**, **communication pr
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=pavanshettyhs-18&theme=github-dark-blue&border=1f6feb&stroke=1f6feb&ring=58a6ff&fire=f78166&currStreakNum=ffffff&sideNums=58a6ff&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&background=0d1117" height="180"/>
+<img src="https://streak-stats.demolab.com?user=pavanshettyhs-18&theme=github-dark-blue&border=1f6feb&stroke=1f6feb&ring=58a6ff&fire=f78166&currStreakNum=ffffff&sideNums=58a6ff&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&background=0d1117" height="180"/>
 
 </div>
 
