@@ -38,13 +38,13 @@
 <img src="https://komarev.com/ghpvc/?username=pavanshettyhs-18&label=Profile+Views&color=1f6feb&style=flat-square" alt="profile views"/>
 
 </div>
+</div>
 
 ---
 
 ## 👨‍💻 About Me
 
 ```c
-
 /* =====================================================
  * File    : pavan_shetty.c
  * Author  : Pavan Shetty H S
@@ -54,7 +54,6 @@
 
 #include <stdio.h>
 #include <embedded_passion.h>
-#include <engineering_mindset.h>
 
 typedef struct {
     char *name;
@@ -82,6 +81,7 @@ int main() {
     printf("👋 Hello, Recruiter! Let's build something real.\n");
     return 0;
 }
+
 ```
 
 I am a passionate **Electronics and Communication Engineering** graduate with a strong foundation in **Embedded Systems, Firmware Development, and IoT**. I enjoy bridging the gap between hardware and software — writing firmware that makes circuits intelligent and systems reliable.
