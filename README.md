@@ -4,8 +4,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=220&section=header&text=Pavan%20Shetty%20H%20S&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:58a6ff&height=200&section=header&text=Pavan%20Shetty%20H%20S&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Electronics%20%26%20Communication%20Engineer&descAlignY=60&descSize=18&descColor=8b949e&animation=fadeIn" width="100%"/>
-
 </div>
 
 ---
