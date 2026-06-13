@@ -1,0 +1,115 @@
+# ============================================================
+# Workflow  : update-stats.yml
+# Author    : Pavan Shetty H S
+# Purpose   : Force-refresh all GitHub stats widgets on every
+#             commit by busting cache and regenerating the README.
+#             Runs on: every push to main, and every 6 hours.
+# ============================================================
+
+name: 🔄 Update GitHub Stats
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Runs every 6 hours — keeps streak alive even on quiet days
+    - cron: '0 */6 * * *'
+  workflow_dispatch:   # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write      # Needed to commit the updated README
+
+jobs:
+  update-readme:
+    name: Refresh Stats & Badges
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout your profile repo ──────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Full history needed for streak calc
+
+      # ── 2. Set up Python (for cache-buster script) ──────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # ── 3. Inject a unique timestamp into README image URLs ─
+      #       This busts GitHub's CDN cache on every push so
+      #       stats show the LATEST data immediately.
+      - name: Inject cache-busting timestamp into README
+        run: |
+          python3 << 'PYEOF'
+          import re, time, os
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              content = f.read()
+
+          # Current Unix timestamp — unique on every run
+          ts = int(time.time())
+
+          # ── github-readme-stats ──────────────────────────────
+          # Remove old cache_seconds + add fresh ones + bust with ts
+          content = re.sub(
+              r'(github-readme-stats\.vercel\.app/api[^\s"]*?)(&cache_seconds=\d+)?(&_ts=\d+)?(?=")',
+              lambda m: m.group(1) + f"&cache_seconds=0&_ts={ts}",
+              content
+          )
+
+          # ── github-readme-streak-stats ───────────────────────
+          content = re.sub(
+              r'(github-readme-streak-stats\.herokuapp\.com/[^\s"]*?)(&_ts=\d+)?(?=")',
+              lambda m: m.group(1) + f"&_ts={ts}",
+              content
+          )
+
+          # ── streak-stats.demolab.com (alt host) ─────────────
+          content = re.sub(
+              r'(streak-stats\.demolab\.com/[^\s"]*?)(&_ts=\d+)?(?=")',
+              lambda m: m.group(1) + f"&_ts={ts}",
+              content
+          )
+
+          # ── github-readme-activity-graph ─────────────────────
+          content = re.sub(
+              r'(github-readme-activity-graph\.vercel\.app/[^\s"]*?)(&_ts=\d+)?(?=")',
+              lambda m: m.group(1) + f"&_ts={ts}",
+              content
+          )
+
+          # ── shields.io badges ────────────────────────────────
+          content = re.sub(
+              r'(img\.shields\.io/badge/[^\s"]*?)(&_ts=\d+)?(?=")',
+              lambda m: m.group(1) + f"&_ts={ts}",
+              content
+          )
+
+          # ── komarev profile views ────────────────────────────
+          content = re.sub(
+              r'(komarev\.com/ghpvc/[^\s"]*?)(&_ts=\d+)?(?=")',
+              lambda m: m.group(1) + f"&_ts={ts}",
+              content
+          )
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(content)
+
+          print(f"✅ Cache-busting timestamp injected: {ts}")
+          PYEOF
+
+      # ── 4. Commit the updated README if anything changed ────
+      - name: Commit updated README
+        run: |
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          # Only commit if README actually changed
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: 🔄 auto-refresh stats cache [skip ci]"
+            git push
+          fi
