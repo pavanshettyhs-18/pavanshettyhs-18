@@ -4,6 +4,8 @@
 # Purpose   : Force-refresh all GitHub stats widgets on every
 #             commit by busting cache and regenerating the README.
 #             Runs on: every push to main, and every 6 hours.
+# Updated   : Node.js 24 compatible (actions/checkout@v4.2.2,
+#             actions/setup-python@v5.6.0)
 # ============================================================
 
 name: 🔄 Update GitHub Stats
@@ -16,6 +18,11 @@ on:
     - cron: '0 */6 * * *'
   workflow_dispatch:   # Allow manual trigger from GitHub UI
 
+# Opt into Node.js 24 now — silences the deprecation warning
+# and future-proofs the workflow past September 16, 2026.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: write      # Needed to commit the updated README
 
@@ -27,15 +34,15 @@ jobs:
     steps:
       # ── 1. Checkout your profile repo ──────────────────────
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2    # Node.js 24 compatible
         with:
           fetch-depth: 0   # Full history needed for streak calc
 
       # ── 2. Set up Python (for cache-buster script) ──────────
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.6.0  # Node.js 24 compatible
         with:
-          python-version: '3.11'
+          python-version: '3.13'   # Latest stable Python
 
       # ── 3. Inject a unique timestamp into README image URLs ─
       #       This busts GitHub's CDN cache on every push so
