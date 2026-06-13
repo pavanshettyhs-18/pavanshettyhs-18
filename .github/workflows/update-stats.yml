@@ -3,9 +3,9 @@
 # Author    : Pavan Shetty H S
 # Purpose   : Force-refresh all GitHub stats widgets on every
 #             commit by busting GitHub CDN cache.
-# Fix       : Removed actions/setup-python entirely.
-#             Uses the runner's built-in Python 3 directly —
-#             no third-party action = no Node.js warning.
+# Fix       : Removed ALL third-party actions (checkout,
+#             setup-python). Uses only raw git + built-in
+#             python3 — zero Node.js dependency, zero warnings.
 # ============================================================
 
 name: 🔄 Update GitHub Stats
@@ -26,16 +26,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ── 1. Checkout ─────────────────────────────────────────
-      - name: Checkout repository
-        uses: actions/checkout@v4.2.2
-        with:
-          fetch-depth: 0
+      # ── 1. Clone repo with plain git — no actions/checkout ──
+      #       Avoids all Node.js action deprecation warnings.
+      - name: Clone repository
+        run: |
+          git clone \
+            --depth=1 \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" \
+            repo
+          cd repo
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      # ── 2. Inject timestamp — uses runner's built-in python3
-      #       ubuntu-latest ships Python 3.12+ — no setup needed
+      # ── 2. Inject timestamp using runner's built-in python3 ──
+      #       ubuntu-latest ships Python 3.12+ — nothing to install.
       - name: Inject cache-busting timestamp into README
         run: |
+          cd repo
           python3 - << 'PYEOF'
           import re, time
 
@@ -44,6 +51,7 @@ jobs:
 
           ts = int(time.time())
 
+          # All widget URL patterns — append fresh &_ts= to each
           patterns = [
               r'(github-readme-stats\.vercel\.app/api[^\s"]*?)(&cache_seconds=\d+)?(&_ts=\d+)?(?=")',
               r'(streak-stats\.demolab\.com/[^\s"]*?)(&_ts=\d+)?(?=")',
@@ -61,7 +69,7 @@ jobs:
                   content
               )
 
-          # github-readme-stats also gets cache_seconds=0
+          # github-readme-stats also needs cache_seconds=0
           content = re.sub(
               r'(github-readme-stats\.vercel\.app/api[^\s"]*?)(&cache_seconds=\d+)?(&_ts=\d+)?(?=")',
               lambda m, t=ts: m.group(1) + f"&cache_seconds=0&_ts={t}",
@@ -74,11 +82,10 @@ jobs:
           print(f"✅ Timestamp {ts} injected into README.md")
           PYEOF
 
-      # ── 3. Commit if changed ────────────────────────────────
+      # ── 3. Commit and push if README changed ────────────────
       - name: Commit updated README
         run: |
-          git config --global user.name  "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          cd repo
           git add README.md
           if git diff --cached --quiet; then
             echo "No changes to commit."
