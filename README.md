@@ -205,38 +205,60 @@ My hands-on experience spans microcontroller programming, communication protocol
 
 ---
 
-## 📈 GitHub Statistics
+## 📊 GitHub Stats
+
+<!--
+  ┌─────────────────────────────────────────────────────────┐
+  │  INSTANT-REFRESH STATS                                   │
+  │  • cache_seconds=0  → bypasses widget-level cache        │
+  │  • &_ts=TIMESTAMP   → busts GitHub CDN cache on push     │
+  │  • The GitHub Actions workflow in .github/workflows/     │
+  │    auto-injects a fresh timestamp on every commit.       │
+  └─────────────────────────────────────────────────────────┘
+-->
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pavanshettyhs-18&show_icons=true&theme=tokyonight&cache_seconds=0&_ts=1781701430"/>
+<!-- Stats Card + Top Languages — side by side -->
+<img src="https://github-readme-stats.vercel.app/api?username=pavanshettyhs-18&show_icons=true&theme=github_dark&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&bg_color=0d1117&hide_border=false&count_private=true&include_all_commits=true&cache_seconds=0"
+     height="180"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavanshettyhs-18&layout=compact&theme=github_dark&border_color=1f6feb&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&hide_border=false&langs_count=8&cache_seconds=0"
+     height="180"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavanshettyhs-18&layout=compact&theme=tokyonight&cache_seconds=0&_ts=1781701430"/>
+</div>
+
+<br/>
+
+<!-- Streak Stats — demolab host is more reliable than herokuapp -->
+<div align="center">
+
+<img src="https://streak-stats.demolab.com/?user=pavanshettyhs-18&theme=github-dark-blue&border=1f6feb&stroke=1f6feb&ring=58a6ff&fire=f78166&currStreakNum=ffffff&sideNums=58a6ff&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&background=0d1117&cache_seconds=0"
+     height="180"/>
+
+</div>
+
+<br/>
+
+<!-- Contribution Activity Graph -->
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pavanshettyhs-18&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb&hide_border=false&custom_title=Pavan%27s%20Contribution%20Graph&cache_seconds=0"
+     width="100%"/>
+
+</div>
+
+<br/>
+
+<!-- WakaTime / Trophies row -->
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=pavanshettyhs-18&theme=darkhub&no-frame=false&no-bg=true&margin-w=6&column=7&cache_seconds=0"
+     width="100%"/>
 
 </div>
 
 ---
-
-## 🔥 GitHub Streak
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=pavanshettyhs-18&theme=tokyonight"/>
-
-</div>
-
----
-
-## 📊 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pavanshettyhs-18&theme=tokyo-night&_ts=1781701430"/>
-
-</div>
-
----
-
 
 ## 💡 Engineering Philosophy
 
