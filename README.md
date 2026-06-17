@@ -14,19 +14,19 @@
 
 <p align="center">
   <a href="mailto:pavanshetty1405@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-pavanshetty1405%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&_ts=1781634065"/>
+    <img src="https://img.shields.io/badge/Gmail-pavanshetty1405%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&_ts=1781701430"/>
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/pavan-shetty-h-s1807/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Pavan%20Shetty%20H%20S-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&_ts=1781634065"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Pavan%20Shetty%20H%20S-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&_ts=1781701430"/>
   </a>
   &nbsp;
   <a href="https://github.com/pavanshettyhs-18" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-pavanshettyhs--18-181717?style=for-the-badge&logo=github&logoColor=white&_ts=1781634065"/>
+    <img src="https://img.shields.io/badge/GitHub-pavanshettyhs--18-181717?style=for-the-badge&logo=github&logoColor=white&_ts=1781701430"/>
   </a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=pavanshettyhs-18&label=Profile+Views&color=1f6feb&style=flat-square&_ts=1781634065" alt="profile views"/>
+<img src="https://komarev.com/ghpvc/?username=pavanshettyhs-18&label=Profile+Views&color=1f6feb&style=flat-square&_ts=1781701430" alt="profile views"/>
 
 </div>
 
@@ -162,29 +162,29 @@ My hands-on experience spans microcontroller programming, communication protocol
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/RTOS-Real%20Time%20OS-0D47A1?style=for-the-badge&logo=freertos&logoColor=white&_ts=1781634065"/><br/>
+      <img src="https://img.shields.io/badge/RTOS-Real%20Time%20OS-0D47A1?style=for-the-badge&logo=freertos&logoColor=white&_ts=1781701430"/><br/>
       <sub>FreeRTOS Tasks & Scheduling</sub>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/ARM%20Cortex--M-Microarchitecture-0078D4?style=for-the-badge&logo=arm&logoColor=white&_ts=1781634065"/><br/>
+      <img src="https://img.shields.io/badge/ARM%20Cortex--M-Microarchitecture-0078D4?style=for-the-badge&logo=arm&logoColor=white&_ts=1781701430"/><br/>
       <sub>Cortex-M0/M3/M4 Architecture</sub>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/STM32-Microcontroller-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white&_ts=1781634065"/><br/>
+      <img src="https://img.shields.io/badge/STM32-Microcontroller-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white&_ts=1781701430"/><br/>
       <sub>STM32 HAL & Bare-Metal</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/Embedded%20Linux-System%20Programming-FCC624?style=for-the-badge&logo=linux&logoColor=black&_ts=1781634065"/><br/>
+      <img src="https://img.shields.io/badge/Embedded%20Linux-System%20Programming-FCC624?style=for-the-badge&logo=linux&logoColor=black&_ts=1781701430"/><br/>
       <sub>Yocto & Buildroot Basics</sub>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/Device%20Drivers-Kernel%20Modules-3E2723?style=for-the-badge&logo=linux&logoColor=white&_ts=1781634065"/><br/>
+      <img src="https://img.shields.io/badge/Device%20Drivers-Kernel%20Modules-3E2723?style=for-the-badge&logo=linux&logoColor=white&_ts=1781701430"/><br/>
       <sub>Linux Kernel Driver Concepts</sub>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/CAN%20%2F%20SPI%20%2F%20I2C-Protocols-558B2F?style=for-the-badge&logo=zigbee&logoColor=white&_ts=1781634065"/><br/>
+      <img src="https://img.shields.io/badge/CAN%20%2F%20SPI%20%2F%20I2C-Protocols-558B2F?style=for-the-badge&logo=zigbee&logoColor=white&_ts=1781701430"/><br/>
       <sub>Advanced Communication Protocols</sub>
     </td>
   </tr>
@@ -209,9 +209,9 @@ My hands-on experience spans microcontroller programming, communication protocol
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pavanshettyhs-18&show_icons=true&theme=tokyonight&cache_seconds=0&_ts=1781634065"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=pavanshettyhs-18&show_icons=true&theme=tokyonight&cache_seconds=0&_ts=1781701430"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavanshettyhs-18&layout=compact&theme=tokyonight&cache_seconds=0&_ts=1781634065"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavanshettyhs-18&layout=compact&theme=tokyonight&cache_seconds=0&_ts=1781701430"/>
 
 </div>
 
@@ -231,7 +231,7 @@ My hands-on experience spans microcontroller programming, communication protocol
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pavanshettyhs-18&theme=tokyo-night&_ts=1781634065"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pavanshettyhs-18&theme=tokyo-night&_ts=1781701430"/>
 
 </div>
 
@@ -269,15 +269,15 @@ If you're hiring or have a project in mind — let's talk!
 <br/>
 
 <a href="mailto:pavanshetty1405@gmail.com">
-  <img src="https://img.shields.io/badge/Send%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&_ts=1781634065"/>
+  <img src="https://img.shields.io/badge/Send%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&_ts=1781701430"/>
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/pavan-shetty-h-s1807/">
-  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&_ts=1781634065"/>
+  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&_ts=1781701430"/>
 </a>
 &nbsp;
 <a href="https://github.com/pavanshettyhs-18">
-  <img src="https://img.shields.io/badge/Follow%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white&_ts=1781634065"/>
+  <img src="https://img.shields.io/badge/Follow%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white&_ts=1781701430"/>
 </a>
 
 </div>
