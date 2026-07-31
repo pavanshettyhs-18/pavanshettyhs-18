@@ -14,19 +14,19 @@
 
 <p align="center">
   <a href="mailto:pavanshetty1405@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-pavanshetty1405%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&_ts=1785440454"/>
+    <img src="https://img.shields.io/badge/Gmail-pavanshetty1405%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&_ts=1785468651"/>
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/pavan-shetty-h-s1807/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Pavan%20Shetty%20H%20S-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&_ts=1785440454"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Pavan%20Shetty%20H%20S-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&_ts=1785468651"/>
   </a>
   &nbsp;
   <a href="https://github.com/pavanshettyhs-18" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-pavanshettyhs--18-181717?style=for-the-badge&logo=github&logoColor=white&_ts=1785440454"/>
+    <img src="https://img.shields.io/badge/GitHub-pavanshettyhs--18-181717?style=for-the-badge&logo=github&logoColor=white&_ts=1785468651"/>
   </a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=pavanshettyhs-18&label=Profile+Views&color=1f6feb&style=flat-square&_ts=1785440454" alt="profile views"/>
+<img src="https://komarev.com/ghpvc/?username=pavanshettyhs-18&label=Profile+Views&color=1f6feb&style=flat-square&_ts=1785468651" alt="profile views"/>
 
 </div>
 
@@ -162,29 +162,29 @@ My hands-on experience spans microcontroller programming, communication protocol
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/RTOS-Real%20Time%20OS-0D47A1?style=for-the-badge&logo=freertos&logoColor=white&_ts=1785440454"/><br/>
+      <img src="https://img.shields.io/badge/RTOS-Real%20Time%20OS-0D47A1?style=for-the-badge&logo=freertos&logoColor=white&_ts=1785468651"/><br/>
       <sub>FreeRTOS Tasks & Scheduling</sub>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/ARM%20Cortex--M-Microarchitecture-0078D4?style=for-the-badge&logo=arm&logoColor=white&_ts=1785440454"/><br/>
+      <img src="https://img.shields.io/badge/ARM%20Cortex--M-Microarchitecture-0078D4?style=for-the-badge&logo=arm&logoColor=white&_ts=1785468651"/><br/>
       <sub>Cortex-M0/M3/M4 Architecture</sub>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/STM32-Microcontroller-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white&_ts=1785440454"/><br/>
+      <img src="https://img.shields.io/badge/STM32-Microcontroller-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white&_ts=1785468651"/><br/>
       <sub>STM32 HAL & Bare-Metal</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/Embedded%20Linux-System%20Programming-FCC624?style=for-the-badge&logo=linux&logoColor=black&_ts=1785440454"/><br/>
+      <img src="https://img.shields.io/badge/Embedded%20Linux-System%20Programming-FCC624?style=for-the-badge&logo=linux&logoColor=black&_ts=1785468651"/><br/>
       <sub>Yocto & Buildroot Basics</sub>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/Device%20Drivers-Kernel%20Modules-3E2723?style=for-the-badge&logo=linux&logoColor=white&_ts=1785440454"/><br/>
+      <img src="https://img.shields.io/badge/Device%20Drivers-Kernel%20Modules-3E2723?style=for-the-badge&logo=linux&logoColor=white&_ts=1785468651"/><br/>
       <sub>Linux Kernel Driver Concepts</sub>
     </td>
     <td align="center">
-      <img src="https://img.shields.io/badge/CAN%20%2F%20SPI%20%2F%20I2C-Protocols-558B2F?style=for-the-badge&logo=zigbee&logoColor=white&_ts=1785440454"/><br/>
+      <img src="https://img.shields.io/badge/CAN%20%2F%20SPI%20%2F%20I2C-Protocols-558B2F?style=for-the-badge&logo=zigbee&logoColor=white&_ts=1785468651"/><br/>
       <sub>Advanced Communication Protocols</sub>
     </td>
   </tr>
@@ -220,10 +220,10 @@ My hands-on experience spans microcontroller programming, communication protocol
 <div align="center">
 
 <!-- Stats Card + Top Languages — side by side -->
-<img src="https://github-readme-stats.vercel.app/api?username=pavanshettyhs-18&show_icons=true&theme=github_dark&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&bg_color=0d1117&hide_border=false&count_private=true&include_all_commits=true&cache_seconds=0&_ts=1785440454"
+<img src="https://github-readme-stats.vercel.app/api?username=pavanshettyhs-18&show_icons=true&theme=github_dark&border_color=1f6feb&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&bg_color=0d1117&hide_border=false&count_private=true&include_all_commits=true&cache_seconds=0&_ts=1785468651"
      height="180"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavanshettyhs-18&layout=compact&theme=github_dark&border_color=1f6feb&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&hide_border=false&langs_count=8&cache_seconds=0&_ts=1785440454"
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pavanshettyhs-18&layout=compact&theme=github_dark&border_color=1f6feb&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&hide_border=false&langs_count=8&cache_seconds=0&_ts=1785468651"
      height="180"/>
 
 </div>
@@ -233,7 +233,7 @@ My hands-on experience spans microcontroller programming, communication protocol
 <!-- Streak Stats — demolab host is more reliable than herokuapp -->
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=pavanshettyhs-18&theme=github-dark-blue&border=1f6feb&stroke=1f6feb&ring=58a6ff&fire=f78166&currStreakNum=ffffff&sideNums=58a6ff&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&background=0d1117&cache_seconds=0&_ts=1785440454"
+<img src="https://streak-stats.demolab.com/?user=pavanshettyhs-18&theme=github-dark-blue&border=1f6feb&stroke=1f6feb&ring=58a6ff&fire=f78166&currStreakNum=ffffff&sideNums=58a6ff&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e&background=0d1117&cache_seconds=0&_ts=1785468651"
      height="180"/>
 
 </div>
@@ -243,7 +243,7 @@ My hands-on experience spans microcontroller programming, communication protocol
 <!-- Contribution Activity Graph -->
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pavanshettyhs-18&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb&hide_border=false&custom_title=Pavan%27s%20Contribution%20Graph&cache_seconds=0&_ts=1785440454"
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pavanshettyhs-18&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb&hide_border=false&custom_title=Pavan%27s%20Contribution%20Graph&cache_seconds=0&_ts=1785468651"
      width="100%"/>
 
 </div>
@@ -253,7 +253,7 @@ My hands-on experience spans microcontroller programming, communication protocol
 <!-- WakaTime / Trophies row -->
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=pavanshettyhs-18&theme=darkhub&no-frame=false&no-bg=true&margin-w=6&column=7&cache_seconds=0&_ts=1785440454"
+<img src="https://github-profile-trophy.vercel.app/?username=pavanshettyhs-18&theme=darkhub&no-frame=false&no-bg=true&margin-w=6&column=7&cache_seconds=0&_ts=1785468651"
      width="100%"/>
 
 </div>
@@ -291,15 +291,15 @@ If you're hiring or have a project in mind — let's talk!
 <br/>
 
 <a href="mailto:pavanshetty1405@gmail.com">
-  <img src="https://img.shields.io/badge/Send%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&_ts=1785440454"/>
+  <img src="https://img.shields.io/badge/Send%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&_ts=1785468651"/>
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/pavan-shetty-h-s1807/">
-  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&_ts=1785440454"/>
+  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&_ts=1785468651"/>
 </a>
 &nbsp;
 <a href="https://github.com/pavanshettyhs-18">
-  <img src="https://img.shields.io/badge/Follow%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white&_ts=1785440454"/>
+  <img src="https://img.shields.io/badge/Follow%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white&_ts=1785468651"/>
 </a>
 
 </div>
